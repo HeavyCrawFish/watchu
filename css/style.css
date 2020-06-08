@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    src: url("/fonts/orange\juice\2.0.ttf");
+    font-family: "orange";
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.section-search input {
+    padding: 5px !important;
+    margin: 15px 0 0 0 !important;
+    font-size: 10px !important;
+    width: 90% !important;
+    border: 2px solid tomato;
+}
+
+img .nigga {
+    height: 234px;
+}
+
+.Container {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.fa-3x {
+    margin: 5px 10px;
+}
+
+h1 {
+    font-family: oswald;
+    font: inherit;
+}
