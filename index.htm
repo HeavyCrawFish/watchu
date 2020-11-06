@@ -26,7 +26,7 @@
                         <nav class="red">
                             <div class="Container">
                                 <div class="nav-wrapper">
-                                    <a href="/" class="brand-logo">
+                                    <a href="/" class="brand-logo" style="padding-left: 10px;">
                                         WATCH U
                                     </a>
                                     <a href="#" data-target="mobile-demo" class="sidenav-trigger">
@@ -53,10 +53,6 @@
                                             <a class="active" href="#contact"> Contact
                                             </a>
                                         </li>
-                                        <li>
-                                            <a class="active" href="#!"> Login/SignUp
-                                            </a>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -74,10 +70,6 @@
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#!"> Login/SignUp
-                            </a>
                         </li>
                     </ul>
                 </section>
@@ -112,12 +104,12 @@
                         <li>
                             <img src="images/p3.jpg" alt="Adruino" />
                             <div class="caption right-align">
-                                <h2 class="red-text">Login Here</h2>
+                                <h2 class="red-text">Contact Us</h2>
                                 <h5 class="dark white-text hide-on-small-only">
                                     to get the product now!!
                                 </h5>
                                 <a href="#contact" class="btn btn-large red z-depth-2">
-                              Login
+                              Click here
                             </a>
                             </div>
                         </li>
@@ -245,10 +237,10 @@
                             <h4 class="center">
                                 <span class="red-text darken-1">WatchU</span> Team
                             </h4>
-                            <div class="col s12 m3 offset-m5">
-                                <div class="card">
+                            <div class="col s12 m3 offset-m4">
+                                <div class="card " style="width: 290px;">
                                     <div class="card-image">
-                                        <img src="images/ved.jpeg" alt="person" />
+                                        <img class = "resposive-img" src="images/ved.jpeg" alt="person" class="vedant" style="height: 390px;"/>
                                         <span class="card-title text-darken-4 black-text center-align">
                                           Vedant
                                         </span>
@@ -261,59 +253,47 @@
                             </div>
                         </div>
                         <div class="row center">
-                            <div class="col s12 m3">
-                                <div class="card">
+                            <div class="col s12 m3 s1">
+                                <div class="card ">
                                     <div class="card-image">
-                                        <img src="images/saurav1.jpeg" alt="person" />
+                                        <img class = "resposive-img" src="images/saurav1.jpeg" alt="person" style="height: 390px;" />
                                         <span class="card-title text-darken-4 black-text">
                                               Saurav
                                             </span>
                                     </div>
-                                    <div class="card-content">
-                                        <p>Product Advisor</p>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="col s12 m3">
-                                <div class="card">
+                            <div class="col s12 m3 s1">
+                                <div class="card " >
                                     <div class="card-image">
-                                        <img src="images/person.jpg" class="circle" alt="person" />
+                                        <img class = "resposive-img" src="images/person.jpg" class="circle" alt="person" style="height: 390px;" />
                                         <span class="card-title text-darken-4 black-text ">
                                               Vishnu
                                             </span>
                                     </div>
 
-                                    <div class="card-content">
-                                        <p>Core Developer</p>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="col s12 m3">
+                            <div class="col s12 m3 s1">
                                 <div class="card ">
                                     <div class="card-image ">
-                                        <img src="images/shaurya.jpeg" alt="person" />
+                                        <img class = "resposive-img" src="images/shaurya.jpeg" alt="person" style="height: 390px;" />
                                         <span class="card-title text-darken-4 black-text">
                                               Shourya
                                             </span>
                                     </div>
 
-                                    <div class="card-content">
-                                        <p>Team HR</p>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="col s12 m3">
-                                <div class="card">
+                            <div class="col s12 m3 s1">
+                                <div class="card ">
                                     <div class="card-image">
-                                        <img src="images/person.jpg" alt="person" />
+                                        <img class = "resposive-img" src="images/varun.jpg" alt="person" style="height: 390px;" />
                                         <span class="card-title text-darken-4 black-text ">
                                               Varun
                                             </span>
                                     </div>
 
-                                    <div class="card-content">
-                                        <p>Assistant Developer</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -438,26 +418,6 @@
                 height: 500,
                 transition: 500,
                 interval: 4000,
-            });
-        });
-        // Search Data
-        $(document).ready(function() {
-            $(".autocomplete ").autocomplete({
-                data: {
-                    RaspBerriPi: null,
-                    RasPICAM: null,
-                    "Motion Sensor ": null,
-                    Video: null,
-                    Relay: null,
-                    Raspbian: null,
-                    "Ubuntu Mate ": null,
-                    Automation: null,
-                    Home: null,
-                    Nigga: null,
-                    Linux: null,
-                    "Windows IOT ": null,
-                    "Internet of things ": null,
-                },
             });
         });
         //Scrollspy
